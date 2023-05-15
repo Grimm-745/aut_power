@@ -7,7 +7,7 @@
 <h4 align="center">aut_power 基于python的自动化模拟登录</h4>
 
 <p align="center">
-  <a href="#start">Start</a> •
+  <a href="#开始">开始</a> •
   <a href="#options">Options</a> •
   <a href="#example">Example</a> •
   <a href="#faq">FAQ</a> •
