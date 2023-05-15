@@ -44,7 +44,7 @@ python aut_power.py
 - Submit Button CSS Selector : `登陆页面点击提交的标签的selector`
 
 复制selector方法如下：
-<img src="./img/selector.png" width="1000px" alt="aut_power">
+<img src="./img/selector.png" width="1080px" alt="aut_power">
 
 **python环境**
 
@@ -54,15 +54,17 @@ python aut_power.py
 
 **适用环境**
 
-适用于账号密码经过加密处理，登陆后没有跳转，没有验证码的登陆页面
+适用于账号密码经过加密处理，登陆后没有跳转，没有弹窗，没有验证码,不设错误次数的登陆页面
 
 
 ---
 
 ## 调整
 
-因为登陆的速度和网速成正比，所以在使用的时候如果网速慢或者挂了全局代理，可以到aut_power.py中调整等待时间稍长一点
+因为登陆的速度和网速成正比，所以在使用的时候如果网速慢或者挂了全局代理，可以自行到aut_power.py中调整等待时间稍长一点
 
 可调节处已经标注`#等待结果`
 
 ## 示例
+<img src="./img/866zy-j0b9p.gif" width="1080px" alt="aut_power">
+<img src="./img/anli.png" width="1080px" alt="aut_power">
