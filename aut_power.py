@@ -32,7 +32,7 @@ def index():
         with open(file_path) as f:
             for i in f.readlines():
                 try:
-                    time.sleep(1.2) #等待结果
+                    time.sleep(1) #等待结果
                     usr = wd.find_element(By.CSS_SELECTOR,usr_css_selector)
                     usr.send_keys(usr_send_key)
                     pwd = wd.find_element(By.CSS_SELECTOR,pwd_css_selector)
@@ -41,7 +41,7 @@ def index():
                     submit.click()
                     print('[*] ' + i.strip('\n'))
                     password = i.strip('\n')
-                    time.sleep(1.2) #等待结果
+                    time.sleep(1) #等待结果
                     if(wd.find_element(By.CSS_SELECTOR,submit_css_selector)):
                         usr.clear()
                         pwd.clear()
@@ -57,7 +57,7 @@ def index():
                             break
                         else:
                             print(colorama.Fore.RED + '[!] poor network connection' + colorama.Style.RESET_ALL)
-                            print(colorama.Fore.RED + '[!] 连接似乎不太稳定，请稍等，如果是通过全局代理访问建议切换代理' + colorama.Style.RESET_ALL)
+                            print(colorama.Fore.RED + '[!] 连接似乎不太稳定，请稍等，如果是通过全局代理访问建议切换代理或延长等待结果时间' + colorama.Style.RESET_ALL)
                             wd.refresh()
                             continue
                     else:
