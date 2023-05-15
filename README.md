@@ -1,7 +1,7 @@
 # aut_power
 <h1 align="center">
   <br>
-  <img src="./favicon.ico" width="100px" alt="aut_power">
+  <img src="./favicon.ico" width="50px" alt="aut_power">
 </h1>
 
 <h4 align="center">Red/Blue team environment automation deployment tool</h4>
