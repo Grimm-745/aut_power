@@ -27,12 +27,12 @@ def index():
         # 运行Selenium代码
         wd = webdriver.Chrome()
         wd.get(url)
-        time.sleep(3) #等待页面加载
+        time.sleep(3)
         
         with open(file_path) as f:
             for i in f.readlines():
                 try:
-                    time.sleep(1.2)
+                    time.sleep(1.2) #等待结果
                     usr = wd.find_element(By.CSS_SELECTOR,usr_css_selector)
                     usr.send_keys(usr_send_key)
                     pwd = wd.find_element(By.CSS_SELECTOR,pwd_css_selector)
