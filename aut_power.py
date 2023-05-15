@@ -5,6 +5,7 @@ import time
 import colorama
 import os
 
+
 app = Flask(__name__, template_folder='.')
 
 colorama.init()
