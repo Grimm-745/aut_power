@@ -38,7 +38,7 @@ python aut_power.py
 2.双击打开index.html，填写好对应信息
 - URL : `登陆页面地址`
 - username : `登陆用户名`
-- Password File Path : `字典路径`
+- Password File Path : `密码字典路径`
 - Username CSS Selector : `登陆页面填入账号的标签的selector`
 - Password CSS Selector : `登陆页面填入密码的标签的selector`
 - Submit Button CSS Selector : `登陆页面点击提交的标签的selector`
