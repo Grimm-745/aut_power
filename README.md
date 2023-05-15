@@ -11,36 +11,26 @@
   <a href="#options">Options</a> •
   <a href="#example">Example</a> •
   <a href="#faq">FAQ</a> •
-  <a href="#license">License</a>
 </p>
 
-<p align="center">
-    <img src="https://img.shields.io/badge/platform-linux-important?color=%23942000">
-    <img src="https://img.shields.io/badge/Category-automation-yellow.svg">
-    <img src="https://img.shields.io/github/release/ffffffff0x/f8x"></a>
-    <img src="https://github.com/ffffffff0x/f8x/workflows/dev/badge.svg">
-</p>
-
-English | [简体中文](README.zh-cn.md)
+[简体中文]
 
 ---
 
-## Start
+## 开始
 
-**Download**
-- Download via CF Workers [Recommend]
-  - wget : `wget -O f8x https://f8x.io/`
-  - curl : `curl -o f8x https://f8x.io/`
+**安装库**
+- 建议先给pip换源 [[Recommend](https://webxxe.cn/index.php/archives/452/)]
+  - [(https://webxxe.cn/index.php/archives/452/)](https://webxxe.cn/index.php/archives/452/)
 
-- github raw
-  - wget : `wget -O f8x https://raw.githubusercontent.com/ffffffff0x/f8x/main/f8x`
-  - curl : `curl -o f8x https://raw.githubusercontent.com/ffffffff0x/f8x/main/f8x`
+- pip install
+  - `pip install -r requirements.txt`
 
-> Subsequent releases will not be updated, so it is recommended not to download old versions of f8x from releases.
+> 电脑要自己下有chrome浏览器，版本要113.0的
 
-**usage**
+**使用**
 ```bash
-bash f8x -h
+python aut_power.py
 ```
 
 Recommended to add to environment variables
