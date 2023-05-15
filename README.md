@@ -68,3 +68,6 @@ python aut_power.py
 ## 示例
 <img src="./img/866zy-j0b9p.gif" width="1080px" alt="aut_power">
 <img src="./img/anli.png" width="1080px" alt="aut_power">
+
+## FAQ
+
