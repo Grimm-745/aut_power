@@ -26,40 +26,34 @@
 - pip install
   - `pip install -r requirements.txt`
 
-> 电脑要自己下有chrome浏览器，版本要113.0的
+> 电脑要自己下有chrome浏览器，版本要113.0以上的
 
 **使用**
+
+1.启动
 ```bash
 python aut_power.py
 ```
 
-Recommended to add to environment variables
-- wget : `wget -O f8x https://f8x.io/ && mv --force f8x /usr/local/bin/f8x && chmod +x /usr/local/bin/f8x`
-  - `f8x -h`
-- curl : `curl -o f8x https://f8x.io/ && mv --force f8x /usr/local/bin/f8x && chmod +x /usr/local/bin/f8x`
-  - `f8x -h`
+2.双击打开index.html，填写好对应信息
+- URL : `登陆页面地址`
+- username : `登陆用户名`
+- Password File Path : `字典路径`
+- Username CSS Selector : `登陆页面填入账号的标签的selector`
+- Password CSS Selector : `登陆页面填入密码的标签的selector`
+- Submit Button CSS Selector : `登陆页面点击提交的标签的selector`
 
-**System Dependency**
 
-f8x basically doesn't need any dependencies, it is made to help you install various dependencies😁
+**python环境**
 
-**f8x-ctf**
+适配python3.7以上环境
 
-This script is used to deploy CTF environments (Web、Misc、Crypto、Pwn、Iot)
 
-- wget : `wget -O f8x-ctf https://f8x.io/ctf`
-  - `bash f8x-ctf -help`
-- curl : `curl -o f8x-ctf https://f8x.io/ctf`
-  - `bash f8x-ctf -help`
 
-**f8x-dev**
+**适用环境**
 
-Deployment of middleware, database (apache、nginx、tomcat、Database、php)
+适用于账号密码经过加密处理，登陆后没有跳转，没有验证码的登陆页面
 
-- wget : `wget -O f8x-dev https://f8x.io/dev`
-  - `bash f8x-dev -help`
-- curl : `curl -o f8x-dev https://f8x.io/dev`
-  - `bash f8x-dev -help`
 
 ---
 
