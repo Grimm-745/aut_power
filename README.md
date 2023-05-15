@@ -70,4 +70,7 @@ python aut_power.py
 <img src="./img/anli.png" width="1080px" alt="aut_power">
 
 ## FAQ
+**我运行后很多爆红怎么回事**
+网速慢，爆破快，等待时间短，可以自行更改aut_power.py中的等待时间
 
+> create by Grimm-745
