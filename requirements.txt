@@ -1,5 +1,5 @@
-Flask==2.2.5
-selenium==4.9.1
-watchdog==3.0.0
-requests==2.10.0
-urllib3==1.26.9
+Flask>=2.2.5
+selenium>=4.9.1
+watchdog>=3.0.0
+requests>=2.10.0
+urllib3>=1.26.9
