@@ -42,7 +42,7 @@ python aut_power.py
 - Username CSS Selector : `登陆页面填入账号的标签的selector`
 - Password CSS Selector : `登陆页面填入密码的标签的selector`
 - Submit Button CSS Selector : `登陆页面点击提交的标签的selector`
-
+<img src="./img/selector.png" width="1000px" alt="aut_power">
 
 **python环境**
 
