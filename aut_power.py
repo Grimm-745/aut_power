@@ -45,6 +45,8 @@ def index():
                     if(wd.find_element(By.CSS_SELECTOR,submit_css_selector)):
                         usr.clear()
                         pwd.clear()
+                        #如果遇到账号密码没有删除请注释上面两行代码，启用下面这条
+                        #wd.refresh()
                 except Exception as e:
                     time.sleep(3)
                     if 'Unable to locate element' in str(e) or 'stale element reference' in str(e):
