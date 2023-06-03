@@ -26,7 +26,7 @@
 - pip install
   - `pip install -r requirements.txt`
 
-> 电脑要自己下有chrome浏览器，项目中的版本是113.0版本的
+> 电脑要自己下有chrome浏览器，项目实验的chrome浏览器版本是113.0版本
 
 **使用**
 
