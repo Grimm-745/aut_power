@@ -77,5 +77,9 @@ python aut_power.py
 
 - 网速慢，爆破快，等待时间短，可以自行更改aut_power.py中的等待时间
 
+**我想固定密码只爆账号怎么办**
+
+- 你可以在username栏填写固定的密码，然后把Username CSS Selector栏和Password CSS Selector栏的selector内容调换一下就好了
+
 ---
 > create by Grimm-745
