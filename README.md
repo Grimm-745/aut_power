@@ -26,7 +26,9 @@
 - pip install
   - `pip install -r requirements.txt`
 
-> 电脑要自己下有chrome浏览器，版本要113.0以上的
+> 电脑要自己下有chrome浏览器，项目中的版本是113.0版本的
+> 
+> 如果显示"This version of ChromeDriver only supports Chrome version 11x"错误请到[(https://chromedriver.chromium.org/downloads)](https://chromedriver.chromium.org/downloads)下载自己chrome浏览器对应的chromedriver.exe，再替换掉项目中的chromedriver.exe
 
 **使用**
 
