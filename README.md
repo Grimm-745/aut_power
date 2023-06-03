@@ -35,7 +35,7 @@
 python aut_power.py
 ```
 
-> 如果显示"This version of ChromeDriver only supports Chrome version 11x"错误可能是因为chrome版本与chromedriver.exe不对应导致，请到[(https://chromedriver.chromium.org/downloads)](https://chromedriver.chromium.org/downloads)下载自己chrome浏览器对应的chromedriver.exe版本，并替换掉项目中的"chromedriver.exe”
+> 如果显示"This version of ChromeDriver only supports Chrome version 11x"错误可能是因为chrome版本与chromedriver.exe不对应导致，请到[(https://chromedriver.chromium.org/downloads)](https://chromedriver.chromium.org/downloads)下载自己chrome浏览器对应的chromedriver.exe版本，并替换掉项目中的"chromedriver.exe"
 
 2.双击打开index.html，填写好对应信息
 - URL : `登陆页面地址`
